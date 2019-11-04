@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+ ServerName 10.0.0.9
+ DocumentRoot E:\lion\demo
+ <Directory  "E:\lion\demo">
+  Options +Indexes +Includes +FollowSymLinks +MultiViews
+  Require all granted
+  Order Deny,Allow   
+  #Allow from 127.0.0.1  
+  #Allow from 192.168.0.*
+  Allow from All
+ </Directory>
+</VirtualHost>

@@ -1,0 +1,24 @@
+
+cmake安装
+
+1、下载
+wget https://github.com/Kitware/CMake/releases/download/v3.15.0-rc2/cmake-3.15.0-rc2.tar.gz
+
+tar -xf cmake-3.15.0-rc2.tar.gz
+
+cd cmake-3.15.0-rc2
+
+./configure --prefix=/usr/local/cmake
+
+make && make install
+
+配置环境变量
+vim /etc/profile
+在最后加入以下两行
+PATH=/usr/local/cmake/bin:$PATH
+export PATH
+
+
+source /etc/profile
+cmake --version
+

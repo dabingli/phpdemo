@@ -1,0 +1,63 @@
+一、安装apache
+1、安装httpd依赖插件
+yum -y install gcc gcc-c++ make pcre-devel expat-devel perl
+
+2、解压
+tar -xf apr-1.6.5.tar.gz 
+tar -xf apr-util-1.6.1.tar.gz
+tar -xf httpd-2.4.39.tar.gz
+
+3、移动httpd插件，安装
+mv apr-1.6.5 httpd-2.4.39/srclib/apr
+mv apr-util-1.6.1 httpd-2.4.39/srclib/apr-util
+
+cd httpd-2.4.39
+
+./configure 参数说明
+--prefix=/usr/local/httpd \ //指定将httpd程序安装到/usr/local/httpd目录下
+--enable-so \ //启用动态加载模块功能
+--enable-rewrite \ //启用网页地址重写功能，用于网站优化及目录迁移
+--enable-charset-lite \ //启用字符集支持，以便支持使用各种字符集编码的网页
+--enable-cgi //启用CGI脚本程序支持，便于扩展网站的应用访问能力
+
+./configure --prefix=/usr/local/httpd --enable-so --enable-rewrite --enable-charset-lite --enable-cgi 
+
+make && make install
+
+4、配置httpd
+cp /usr/local/httpd/bin/apachectl /etc/init.d/httpd
+
+vi /etc/init.d/httpd
+编辑配置文件，添加以下两行( # 也需要)
+# chkconfig: 35 85 21
+# description: Apache is a World Wide Web server
+
+
+加入service
+chkconfig --add httpd
+systemctl daemon-reload
+
+优化执行路径
+ln -s /usr/local/httpd/conf/httpd.conf /etc/
+ln -s /usr/local/httpd/bin/* /usr/local/bin/
+
+检查语法错误
+httpd -t   或者  apachectl -t
+
+httpd -v
+
+启动服务
+systemctl start httpd
+
+将httpd设为开机启动
+systemctl enable httpd    或   /sbin/chkconfig httpd on
+
+查看httpd服务运行状态
+netstat -anpt | grep 80
+
+
+开启伪静态
+#LoadModule rewrite_module modules/mod_rewrite.so
+把前面的 “#”去掉
+
+AllowOverride All 【两个地方】

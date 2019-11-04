@@ -1,0 +1,48 @@
+一、php安装
+
+1、安装依赖插件
+yum -y install libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel zlib zlib-devel curl curl-devel openssl openssl-devel libzip libzip_dev autoconf
+
+有可能需要重新安装libzip插件
+（注意：如果安装过程出错，修改下面文件，添加一行）
+vi /usr/local/httpd/bin/apxs 
+#!/usr/bin/perl –w
+
+2、解压、安装
+
+tar -xf php-7.3.3.tar.gz
+
+cd php-7.3.3
+
+./configure --prefix=/usr/local/php --with-apxs2=/usr/local/httpd/bin/apxs --with-mysql-sock=/usr/local/mysql/mysql.sock --with-mysqli --with-zlib --with-curl --with-gd --with-jpeg-dir --with-png-dir --with-freetype-dir --with-openssl --enable-mbstring --enable-xml --enable-session --enable-ftp --enable-pdo --enable-tokenizer --enable-zip
+
+注意：编译PHP时出现的提示，报错信息为： configure: error: off_t undefined; check your library configuration 
+可能还缺少一些插件，缺什么装什么
+未安装libxslt ，须添加搜索路径到配置文件：
+echo '
+/usr/local/lib64 
+/usr/local/lib 
+/usr/lib 
+/usr/lib64'>>/etc/ld.so.conf
+更新配置
+ldconfig -v
+
+
+make && make install
+
+
+3、配置
+cp php.ini-development /usr/local/php/lib/php.ini 
+
+4、查看安装模块
+/usr/local/php/bin/php –m
+
+
+
+
+
+
+
+
+
+

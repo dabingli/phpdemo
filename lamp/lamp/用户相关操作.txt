@@ -1,0 +1,31 @@
+
+添加禁止登陆的mysql用户
+groupadd mysql
+useradd -r -g mysql -s /bin/false mysql
+
+创建数据库用户，并设置数据库权限
+CREATE DATABASE xey; //创建数据库myadm
+CREATE USER 'xey'@'localhost' IDENTIFIED BY 'xey123..yex';
+GRANT all ON xey.* TO 'xey'@'localhost' IDENTIFIED BY 'xey123..yex';
+GRANT all ON xey.* TO 'xey'@'%' IDENTIFIED BY 'xey123..yex'; //授权
+flush privileges; //刷新权限
+
+
+
+创建用户
+groupadd www
+useradd -g www www
+passwd www
+
+chown -R www /home/www 设置访问家目录权限
+chown  root  /home/	将上层目录设置为root所有【这里可省略】
+chmod 771  /home 赋予权限给上层目录
+
+修改用户
+usermod [-s -d -g ..] www
+groupmod [-g -o -n ..] www
+
+删除用户
+groupdel www
+userdel -r www
+
