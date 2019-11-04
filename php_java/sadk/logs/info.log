@@ -1,0 +1,155 @@
+[2019-09-23 11:49:17.563][ERROR][Thread-7][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:49:17.595][ERROR][Thread-7][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:49:17.606][ERROR][Thread-8][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:49:17.607][ERROR][Thread-8][cfca.sadk.api.BaseKit] 02
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.KeyKit.getPrivateKeyIndexFromPFX(KeyKit.java:42) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:49:20.572][ERROR][Thread-9][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:49:20.573][ERROR][Thread-9][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:49:20.579][ERROR][Thread-10][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:49:20.581][ERROR][Thread-10][cfca.sadk.api.BaseKit] 02
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.KeyKit.getPrivateKeyIndexFromPFX(KeyKit.java:42) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:50:20.937][ERROR][Thread-11][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:50:20.938][ERROR][Thread-11][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:51:27.613][ERROR][Thread-12][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:51:27.618][ERROR][Thread-12][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:51:51.028][ERROR][Thread-13][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:51:51.029][ERROR][Thread-13][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:51:52.420][ERROR][Thread-14][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:51:52.423][ERROR][Thread-14][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:51:53.503][ERROR][Thread-15][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:51:53.504][ERROR][Thread-15][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:53:45.907][ERROR][Thread-16][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:53:45.909][ERROR][Thread-16][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:53:56.840][ERROR][Thread-17][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:53:56.840][ERROR][Thread-17][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:53:58.420][ERROR][Thread-18][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:53:58.421][ERROR][Thread-18][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:53:59.538][ERROR][Thread-19][cfca.sadk.api.BaseKit] parameter is null
+[2019-09-23 11:53:59.539][ERROR][Thread-19][cfca.sadk.api.BaseKit] 01
+cfca.sadk.exception.CodeException: param exception
+	at cfca.sadk.api.BaseKit.validParameters(BaseKit.java:54) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:49) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+[2019-09-23 11:54:14.988][ERROR][Thread-20][cfca.sadk.api.BaseKit] 01
+cfca.sadk.algorithm.common.PKIException: 错误码：850606  错误信息：解析P12失败，请重新确认解密口令(verifyMac faulture.)
+	at cfca.sadk.asn1.pkcs.PKCS12.decrypt(PKCS12.java:244) ~[SADK-3.2.1.3.jar:na]
+	at cfca.sadk.util.CertUtil.getCertFromPFX(CertUtil.java:260) ~[SADK-3.2.1.3.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:52) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+Caused by: java.lang.Exception: verifyMac faulture.
+	at cfca.sadk.asn1.pkcs.PKCS12.decrypt(PKCS12.java:223) ~[SADK-3.2.1.3.jar:na]
+	... 7 common frames omitted
+[2019-09-23 11:54:36.898][ERROR][Thread-22][cfca.sadk.api.BaseKit] 01
+cfca.sadk.algorithm.common.PKIException: 错误码：850606  错误信息：解析P12失败，请重新确认解密口令(verifyMac faulture.)
+	at cfca.sadk.asn1.pkcs.PKCS12.decrypt(PKCS12.java:244) ~[SADK-3.2.1.3.jar:na]
+	at cfca.sadk.util.CertUtil.getCertFromPFX(CertUtil.java:260) ~[SADK-3.2.1.3.jar:na]
+	at cfca.sadk.api.CertKit.getCertFromPFX(CertKit.java:52) ~[SADK-PHPKit-3.0.0.1.jar:na]
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_73]
+	at lajpsocket.SingleThread.run(SingleThread.java:242) [lajp-10.05.jar:na]
+Caused by: java.lang.Exception: verifyMac faulture.
+	at cfca.sadk.asn1.pkcs.PKCS12.decrypt(PKCS12.java:223) ~[SADK-3.2.1.3.jar:na]
+	... 6 common frames omitted
